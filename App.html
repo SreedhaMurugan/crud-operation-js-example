@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="App.css">
+
+    <title>Crud Operation</title>
+</head>
+<body>
+    <div class="App"> 
+        <div class="heading">
+          <h1>DIGITAL MART</h1>
+        </div>
+        <div class="con">
+            <form  autocomplete="off" name="form" method="POST">
+           
+            <input type="text" id="product" placeholder="TYPE PRODUCT NAME..!!" name="product"><br>
+            <input type="text" id="cost" placeholder="TYPE COST HERE..!!" name="cost"><br>
+            <input type="button" value="Submit" id="but" onclick="add();" ></input>
+            <input type="text" id="search" placeholder="Search.." name="search">
+            <button type="button" id="but" onclick="search();"></Button>
+            
+             
+            <table class="list" id="employeList">
+                <tr>
+                
+                  <th>Product Name</th>
+                  <th>Cost Of The Product</th>
+                  
+               
+                </tr>
+                <tbody id="tbo">
+                 
+                </tbody>
+        </form>
+        <div id="content-container">
+          <ul id="unlist">
+
+          </ul>
+        </div>
+        </div>
+        <script  src="App.js"></script>  
+</body>
+</html>
+
+
+
+
